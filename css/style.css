@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.root{
+    --maincolor:#F8991C;
+
+}
+.button{
+    margin: 35px 0 ;
+    text-align: center;
+    display: block;
+    width: 139px;
+    height: 37px;
+    line-height: 37px;
+    left: 202px;
+    top: 475px;
+    background: #F8991C;
+    border-radius: 6px;
+    color:#FFFFFF;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* Start Nav Section CSS */
+nav .logo{
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    padding: 40px;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+/* Ends Nav Section CSS */
+/* Start Banner Section CSS */
+#banner{
+    background-color:#F8F8F8;
+    height: 659px;
+}
+#banner .banner_text{
+    width: 60%;
+}
+#banner .banner_text h2{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+
+}
+#banner .banner_text h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 61px;
+    text-align: left;
+
+}
+#banner .banner_text .social{
+    margin-top: 130px;
+}
+#banner .banner_text .social ul li{
+    display: inline-block;
+}
+#banner .banner_text .social ul{
+    margin-left: 120px;
+}
+#banner .banner_text .social ul li a{
+    font-size: 24px;
+    margin-left: 15px;
+}
+#banner .banner_text .social ul li .a1{
+    left: 24.31%;
+    right: 74.04%;
+    top: 15.8%;
+    bottom: 83.6%;
+    color: #4267B2;
+}
+#banner .banner_text .social ul li .a2{
+    left: 27.22%;
+    right: 72.26%;
+    top: 16.02%;
+    bottom: 83.79%;
+    color: #3F729B;
+}
+#banner .banner_text .social ul li .a3{
+    left: 29.02%;
+    right: 69.24%;
+    top: 15.77%;
+    bottom: 83.59%;
+    color: #0072B1;
+}
+
+#banner .banner_img{
+    width: 40%;
+    position: relative;
+}
+#banner .banner_img .ell{
+    margin: 20px 0 0 105px ;
+}
+#banner .banner_img span{
+    background-color: #C4C4C4;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+/* Ends Banner Section CSS */
+/* Start About Section CSS */
+#about{
+    padding: 70px 0;
+}
+#about .about_img{
+    width: 45%;
+    height: 316px;
+    filter: drop-shadow(5px 2px 3px rgba(0, 0, 0, 0.25));
+}
+#about .about_text{
+    width: 55%;
+}
+#about .about_text h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F8991C;
+}
+#about .about_text h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+#about .about_text p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: justified;
+    padding-top: 30px ;
+
+}
+#about .about_text a{
+    display: inline-block;
+    
+}
+#about .about_text .button{
+    width: 180px;
+    height: 40px;
+}
+#about .about_text a .btn{
+    margin: 30px;
+}
+#about .about_text .btn{
+    margin: 0 80px 20px;
+}
+#about .about_text .btn{
+    background-color: white;
+    color: black;
+    border: 1px solid #F8991C;
+
+}
+#about .about_text img{
+    margin: 20px 0;
+}
+#about .about_text .figma{
+    margin-left: 40px;
+}
+/* Ends About Section CSS */
